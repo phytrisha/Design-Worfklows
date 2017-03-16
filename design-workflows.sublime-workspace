@@ -1,0 +1,455 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"chi",
+				"children"
+			],
+			[
+				"res",
+				"rescaleImages"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"child",
+				"childThumb"
+			],
+			[
+				"chil",
+				"childThumb"
+			],
+			[
+				"ch",
+				"childThumb"
+			],
+			[
+				"lef",
+				"leftMargin"
+			],
+			[
+				"lastRo",
+				"lastRotationY"
+			],
+			[
+				"tran",
+				"transProgress"
+			],
+			[
+				"trans",
+				"transStart"
+			],
+			[
+				"proj",
+				"projects"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"welc",
+				"welcomingTexts"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"spac",
+				"letter-spacing"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"rfid",
+				"rfidFlow"
+			],
+			[
+				"video",
+				"videoCtrl"
+			],
+			[
+				"acti",
+				"activeBullet"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"basi",
+				"basicStructure"
+			],
+			[
+				"ex",
+				"extendedElements"
+			],
+			[
+				"interacti",
+				"interactiveStructure"
+			],
+			[
+				"conte",
+				"contentStrcutre"
+			],
+			[
+				"high",
+				"highlightColor1"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"typo",
+				"typography"
+			],
+			[
+				"Rad",
+				"RadioButton"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"anim",
+				"animating"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tra",
+				"track"
+			],
+			[
+				"req",
+				"requested"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ontouc",
+				"ontouchcancel"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/markmeyer/Documents/Design-Worfklows"
+	],
+	"file_history":
+	[
+		"/Users/markmeyer/Documents/Design-Worfklows/electron-arduino-quickstart/window.js",
+		"/Users/markmeyer/Documents/Design-Worfklows/electron-arduino-quickstart/index.html",
+		"/Users/markmeyer/Documents/Design-Worfklows/electron-arduino-quickstart/main.js",
+		"/Users/markmeyer/node_modules/electron/install.js",
+		"/Users/markmeyer/Desktop/sentiment_mod.py",
+		"/Users/markmeyer/Desktop/classifier.py",
+		"/Users/markmeyer/Desktop/twitter_stream_analysis.py",
+		"/Users/markmeyer/Desktop/twitter_stream_download.py",
+		"/Users/markmeyer/Desktop/stream.py",
+		"/Users/markmeyer/Desktop/twitter.py",
+		"/Users/markmeyer/Desktop/data/stream_apple.json",
+		"/Users/markmeyer/Desktop/config.y",
+		"/Users/markmeyer/Dropbox/randomstuff/nico_portfolio_170302_mm/Nico_Portfolio/style/reset.css",
+		"/Users/markmeyer/Dropbox/randomstuff/nico_portfolio_170302_mm/Nico_Portfolio/js/app.js",
+		"/Users/markmeyer/Documents/TCIS/designV1/js/loader.js",
+		"/Users/markmeyer/Documents/TCIS/designV1/js/menu.js",
+		"/Users/markmeyer/Documents/TCIS/designV1/js/multimedia.js",
+		"/Users/markmeyer/Documents/TCIS/designV1/js/tangibleItem.js",
+		"/Users/markmeyer/Documents/TCIS/designV1/js/var.js",
+		"/Users/markmeyer/Documents/TCIS/designV1/js/volume.js",
+		"/Users/markmeyer/Dropbox/booklookerDev/css/style.css",
+		"/Users/markmeyer/Documents/Nico_Portfolio/style/colors.css",
+		"/Users/markmeyer/Downloads/code_170301_mm/index.html",
+		"/Users/markmeyer/Documents/Nico_Portfolio/style.css",
+		"/Users/markmeyer/Documents/Nico_Portfolio/reset.css",
+		"/Users/markmeyer/Documents/Nico_Portfolio/typo.css",
+		"/Users/markmeyer/Documents/experimenta_Heilbronn_5663/02_Produktion/09_styleguide/01_grundstruktur/code_161104_mm/index.html",
+		"/Users/markmeyer/Documents/Adobe Scripts/createCircle.jsx",
+		"/Users/markmeyer/Documents/Adobe Scripts/setOpacityCircle.jsx",
+		"/Users/markmeyer/Documents/experimenta_Heilbronn_5663/02_Produktion/09_styleguide/01_grundstruktur/code_161024_mm/js/dropdown.js",
+		"/Users/markmeyer/Documents/experimenta_Heilbronn_5663/02_Produktion/09_styleguide/01_grundstruktur/code_161021_mm/style/style.css",
+		"/Users/markmeyer/Documents/experimenta_Heilbronn_5663/02_Produktion/09_styleguide/01_grundstruktur/code_161021_mm/index.html",
+		"/Users/markmeyer/Downloads/annyang-master/jquery.js",
+		"/Users/markmeyer/Documents/experimenta_Heilbronn_5663/02_Produktion/09_styleguide/01_grundstruktur/code_161020_mm/style/style.css",
+		"/Users/markmeyer/Documents/experimenta_Heilbronn_5663/02_Produktion/09_styleguide/01_grundstruktur/code_161020_mm/js/app.js",
+		"/Users/markmeyer/Documents/experimenta_Heilbronn_5663/02_Produktion/09_styleguide/01_grundstruktur/code_161020_mm/style/typo.css",
+		"/Users/markmeyer/Documents/experimenta_Heilbronn_5663/02_Produktion/09_styleguide/01_grundstruktur/code_161020_mm/index.html",
+		"/Users/markmeyer/Desktop/09_styleguide/01_grundstruktur/style/typo.css",
+		"/Users/markmeyer/Desktop/09_styleguide/01_grundstruktur/js/app.js",
+		"/Users/markmeyer/Desktop/09_styleguide/01_grundstruktur/style/style.css",
+		"/Users/markmeyer/Desktop/09_styleguide/01_grundstruktur/index.html",
+		"/Users/markmeyer/Desktop/web-api-auth-examples/authorization_code/app.js",
+		"/Users/markmeyer/Desktop/web-api-auth-examples/authorization_code/public/index.html",
+		"/Users/markmeyer/Desktop/spotify-api-test/index.html",
+		"/Users/markmeyer/Desktop/web-api-auth-examples/client_credentials/app.js",
+		"/Users/markmeyer/Desktop/web-api-auth-examples/implicit_grant/public/index.html",
+		"/Users/markmeyer/Desktop/web-api-auth-examples/implicit_grant/app.js",
+		"/Users/markmeyer/Desktop/spotify-api-test/index2.html",
+		"/Users/markmeyer/Desktop/spotify-speech/spotifySetup.js",
+		"/Users/markmeyer/Desktop/touchtester_neu2/index.html",
+		"/Users/markmeyer/Desktop/index.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"apple",
+			"Basis",
+			"Auszeichnungsfarbe",
+			"Tab Leiste",
+			"Hintergrund-Farbe",
+			"Highlight Farbe",
+			"Radio button",
+			"Login Prozess",
+			"Email Adresse",
+			"myExperimenta Station",
+			"standartisiert",
+			"eMail",
+			"Touch-Größen Rechner",
+			"Touch Größen",
+			"touch größen",
+			"#666666",
+			"#CCCCCC",
+			"rfidFlow",
+			"a.",
+			"progressIndicator",
+			"RFID",
+			"Armband",
+			"dropdown",
+			"h1",
+			"dropdown",
+			"ul",
+			"RFID-Band",
+			"RFID",
+			"Listen Layout",
+			"Spalten Layout",
+			"Karten Layout",
+			"h1",
+			"green",
+			"$",
+			"class",
+			"Grün",
+			"colorSwatch",
+			"chapterHeader",
+			"description",
+			"mainContainer",
+			"backgroundImage",
+			"transit",
+			"contentBlock",
+			"h4",
+			"redirect"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Highlightfarbe",
+			"Tab-Leiste",
+			"Hintergrundfarbe",
+			"Highlightfarbe",
+			"Radiobutton",
+			"Login-Prozess",
+			"Email-Adresse",
+			"myExperimenta-Station",
+			"standardisiert",
+			"Email",
+			"Touch-Größenrechner",
+			"Touch-Größen",
+			"#404040",
+			"#757575",
+			"Listen-Layout",
+			"Spalten-Layout",
+			"Karten-Layout",
+			"highlightColor"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "design-workflows.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

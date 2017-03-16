@@ -1,0 +1,50 @@
+button.create {
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -15px;
+	background-color: #ffffff;
+	border-radius: 15px;
+	border-style: none;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);
+	transition: all 0.1s;
+	outline: none;
+}
+
+button.create:hover {
+	box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.15);
+}
+
+button.create:active {
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);
+	background-color: #dddddd;
+}
+
+.topbar {
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 40px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);
+	-webkit-app-region: drag;
+}
+
+.rect {
+	width: 100px;
+	height: 100px;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #AAAAAA;
+	position: absolute;
+}

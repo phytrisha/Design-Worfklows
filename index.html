@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/window.css">
+    <title>Design Tool</title>
+    <script>
+    	// to use jQuery and others, window.module should not exist
+    	// this renames it to window.nodeModule
+    	window.nodeModule = window.module;
+    	delete window.module;
+    </script>
+    <script src="lib/jquery-3.1.1.min.js"></script>
+    <script src="menu.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="topbar" id="electron-titlebar">
+      <div class="appLabel drag">
+        Design Tools
+      </div>
+      <div class="item add">
+        Add +
+      </div>
+
+    </div>
+    <div class="content">
+      
+    </div>
+  </body>
+</html>

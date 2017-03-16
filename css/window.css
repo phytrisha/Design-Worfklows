@@ -1,0 +1,29 @@
+body {
+	background-color: #eeeeee;
+}
+
+.topbar > .item.add {
+	line-height: 40px;
+	font-family: 'SF UI Display';
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	user-select: none;
+	display: inline;
+    float: right;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    margin-left: -60px;
+    color: #086ADB;
+}
+
+.appLabel {
+	text-align: center; 
+	line-height: 40px;
+	font-family: 'SF UI Display';
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	user-select: none;
+}
