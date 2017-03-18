@@ -1,0 +1,23 @@
+.buttonElem {
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	width: 120px;
+	height: 40px;
+	background-color: #FFFFFF;
+	border: 2px solid #000000;
+	border-radius: 4px;
+	float: left;
+	font-family: 'SF UI Display';
+	font-size: 14px;
+	font-weight: 700;
+    text-align: center;
+    line-height: 38px;
+    user-select: none;
+    cursor: default;
+}
+
+.buttonElem:hover {
+	outline: 2px solid #50C2E3;
+}
+

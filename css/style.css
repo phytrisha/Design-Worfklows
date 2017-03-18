@@ -23,18 +23,6 @@ button.create:active {
 	background-color: #dddddd;
 }
 
-.topbar {
-	width: 100%;
-	background-color: #FFFFFF;
-	height: 40px;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index: 999;
-	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);
-	-webkit-app-region: drag;
-}
-
 .rect {
 	width: 100px;
 	height: 100px;
@@ -47,4 +35,34 @@ button.create:active {
 	border-width: 1px;
 	border-color: #AAAAAA;
 	position: absolute;
+}
+
+.button {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #DDDDDD;
+	cursor: pointer;
+	float: left;
+}
+
+.button:hover + .buttonStyledropdown {
+	display: initial;
+}
+
+.buttonStyledropdown {
+	left: 100%;
+    position: absolute;
+    width: 200px;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-width: 1px;
+    display: none;
+}
+
+.buttonStyledropdown:hover {
+	display: initial;
 }
