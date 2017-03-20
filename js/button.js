@@ -1,3 +1,5 @@
+var btnStyle = 0;
+
 function ButtonElem(id) {
 	this.id = id;
 	this.name = 'Button';
@@ -7,7 +9,8 @@ function ButtonElem(id) {
 	this.width = 120;
 	this.height = 60;
 	this.moving = false;
-	this.create(this);
+	this.moveInit = false;
+	this.obj = this.create(this);
 }
 
 ButtonElem.prototype.moveElement = function(elem, target) {
@@ -31,15 +34,21 @@ ButtonElem.prototype.create = function(obj) {
 	// append element to dom
 	$('.content').append('<div class="buttonElem" id="e'+this.id+'"></div>');
 
+	// add label to button
+	$('#e' + this.id).html('<input id="label' + this.id + '" value="Label"></input>');
+	$('#label' + this.id).attr('disabled', true);
+
 	// define movement of element
 	// and update values in object
 	$('#e' + this.id).on('mousedown', function(e) {
-		this.moving = true;
+		this.moveInit = true;
 		offset.x = e.offsetX;
 		offset.y = e.offsetY;
 	})
+
 	$('#e' + this.id).on('mousemove', function(e) {
-		if (this.moving) {
+		if (this.moveInit) {
+			this.moving = true;
 			var currentElemPos = $(this).position();
 			var targetPos = {
 				top: e.clientY - parseInt($('.topbar').css('height')) - offset.y,
@@ -48,16 +57,71 @@ ButtonElem.prototype.create = function(obj) {
 			obj.moveElement($(this), targetPos);
 		}
 	})
-	$('#e' + this.id).on('mouseup mouseleave', function(e) {
+
+	$('#e' + this.id).on('mouseup', function(e) {
+		if (!this.moving) {
+			if ($('#label' + this.id[1]).prop('disabled')) {
+				$('#label' + this.id[1]).attr('disabled', false);
+				$('#label' + this.id[1]).focus();
+			} else {
+				$('#label' + this.id[1]).attr('disabled', true);
+			}
+		}
 		this.moving = false;
+		this.moveInit = false;
 		offset.x = 0;
 		offset.y = 0;
 	})
+
+	$('#e' + this.id).on('mouseleave', function(e) {
+		this.moving = false;
+		this.moveInit = false;
+		offset.x = 0;
+		offset.y = 0;
+	})
+
+	// trigger selection of item
+	// $('#e' + this.id).on('click', function(e) {
+	// 	if (!this.moving) {
+			
+	// 	}
+	// })
+
+	return '#e' + this.id;
 }
 
 function ButtonStyle(id) {
 	this.id = id;
-	this.name = 'style' + this.id;
-	this.color = '#ff0000';
-	this.border = '1px solid #000000';
+	this.border = '2px solid ' + buttonStyleColors[this.id];
+	this.appendToDropdown();
 }
+
+ButtonStyle.prototype.appendToDropdown = function() {
+	$('.buttonStyleDropdown').append('<div class="button" id="btnStyle'+btnStyle+'"></div>');
+	$('#btnStyle' + btnStyle).html('<p>Add Button Style ' + (btnStyle+1) + '</p>');
+	$('#btnStyle' + btnStyle).on('click', function() {
+		data.elements.push(new ButtonElem(elemCounter));
+		data.styles[this.id[8]].apply(data.elements[elemCounter].obj);
+		elemCounter++;
+	})
+	btnStyle++;
+}
+
+ButtonStyle.prototype.apply = function(obj) {
+	var border = this.border;
+	$(obj).css('border', border);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

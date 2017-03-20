@@ -14,22 +14,15 @@ $(document).ready(function() {
 
 	// add button functionality
 	$('#addButtonStyle').on('click', function() {
-		// createButtonStyle();
 		data.styles.push(new ButtonStyle(styleCounter));
 		data.elements.push(new ButtonElem(elemCounter));
+		
+		data.styles[styleCounter].apply(data.elements[elemCounter].obj);
+
 		styleCounter++;
 		elemCounter++;
-		console.log(data);
 	})
 });
-
-function createButtonStyle () {
-	$('.buttonStyledropdownp').append('<div class="button" id="buttonStyle' + buttonStyle + '"><p>Add Button Style ' + (buttonStyle+1) + '</p></div>');
-	$('#buttonStyle' + buttonStyle).on('click', function() {
-		createButton(this.id[11]);
-	})
-	buttonStyle++;
-}
 
 
 

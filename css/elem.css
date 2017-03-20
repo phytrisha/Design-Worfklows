@@ -21,3 +21,12 @@
 	outline: 2px solid #50C2E3;
 }
 
+ .buttonElem > input {
+	font-family: 'SF UI Display';
+	font-size: 14px;
+	font-weight: 700;
+}
+
+ .buttonElem > input:disabled {
+	color: #000000;
+}
